@@ -18,7 +18,14 @@ header {
     
 }
 
-
+ul {
+    list-style-type:none;
+    padding: 5px;
+}
+.containter-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* section one flex grow and shrink */
 
 .section-one {
