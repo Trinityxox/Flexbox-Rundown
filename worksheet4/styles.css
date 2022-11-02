@@ -17,15 +17,15 @@ header {
     
     
 }
-
-ul {
-    list-style-type:none;
-    padding: 5px;
-}
 .containter-navigation {
     display: flex;
     flex-wrap: wrap;
 }
+ul {
+    list-style-type:none;
+    padding: 5px;
+}
+
 /* section one flex grow and shrink */
 
 .section-one {
