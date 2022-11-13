@@ -18,13 +18,16 @@ header {
     
 }
 
-/* help from mary (steps 4 */
+/* help (steps 4 */
 
 .containter-navigation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+.flexgrow-container {
+    display: flex;
 }
 ul {
     list-style-type: none;
@@ -34,7 +37,7 @@ ul {
  .push {
     margin-left: auto;
  }
-
+ /*help finished*/
 li {
 font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 padding: 10px;
@@ -43,7 +46,7 @@ border: 1px solid limegreen;
 border-radius: 10px;
 background-color: aliceblue;
 }
- /*help finished*/
+
 
 /* section one flex grow and shrink */
 
@@ -51,10 +54,6 @@ background-color: aliceblue;
     background-color: blueviolet;
     
     
-}
-
-.flexgrow-container {
-    display: flex;
 }
 
 .box1 {
@@ -70,7 +69,7 @@ background-color: aliceblue;
     background-color: lightgreen;
     
     height: 200px;
-    flex: 1 1 auto;
+    flex: 2 1 auto;
 }
 
 .box3 {
