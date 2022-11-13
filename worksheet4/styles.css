@@ -17,14 +17,21 @@ header {
     
     
 }
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* help from mary (steps 4 */
 .containter-navigation {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
-ul {
-    list-style-type:none;
-    padding: 5px;
-}
+ .push {
+    margin-left;auto;
+ }
 
 /* section one flex grow and shrink */
 
