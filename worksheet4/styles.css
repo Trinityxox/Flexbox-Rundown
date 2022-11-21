@@ -136,4 +136,5 @@ iframe {
 .media-container .mediacotent {
     flex: 1;
     padding: 10px;
+    align-items: right;
 }
