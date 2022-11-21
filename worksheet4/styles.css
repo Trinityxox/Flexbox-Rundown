@@ -4,31 +4,29 @@
 body{
     background-color: limegreen;
 }
-
-h1{
-    font-family: Verdana, Geneva, Tahoma,sans-serif;
-    font-size: 60px;
-    text-align: center;
-}
-
 header {
     background-color: hotpink;
     padding: 10px 0px 10px 0px;
     
     
 }
-
-/* help (steps 4 */
-
-.containter-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+h1{
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    font-size: 60px;
+    text-align: center;
 }
+
+
 .flexgrow-container {
     display: flex;
 }
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 ul {
     list-style-type: none;
     padding: 5px;
@@ -37,7 +35,7 @@ ul {
  .push {
     margin-left: auto;
  }
- /*help finished*/
+
 li {
 font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
 padding: 10px;
@@ -95,8 +93,11 @@ background-color: aliceblue;
 
 .section-three {
     background-color: lightcoral;
-    height: 800px;
-
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 iframe { 
@@ -104,13 +105,18 @@ iframe {
     
 }
 
-
+/* /help */
 /* section 4 embed audio */
-
+.figcaption {
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 5 media items */
@@ -120,5 +126,14 @@ iframe {
     height: 1400px;
 
 }
-
-
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+ 
+.media-container .mediacotent {
+    flex: 1;
+    padding: 10px;
+}
