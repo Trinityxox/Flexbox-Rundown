@@ -11,7 +11,7 @@ header {
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    font-family:'Josefin Sans', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
 }
@@ -114,7 +114,6 @@ iframe {
     
 }
 
-/* /help */
 /* section 4 embed audio */
 figcaption {
     align-items: center;
