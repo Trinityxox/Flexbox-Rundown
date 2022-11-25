@@ -188,7 +188,7 @@ footer {
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
   }
@@ -198,7 +198,6 @@ footer {
     
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    
     
     
     scroll-behavior: smooth;
@@ -214,14 +213,14 @@ footer {
     height: 10px;
   }
   .slides::-webkit-scrollbar-thumb {
-    background: black;
+    background: #f29f05;
     border-radius: 10px;
   }
   .slides::-webkit-scrollbar-track {
     background: transparent;
   }
   .slides > div {
-    border: 3px solid purple;
+    border: 3px solid #f29f05;
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 300px;
