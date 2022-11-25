@@ -153,7 +153,7 @@ figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
     font-size: 20px;
-    align-items: right;
+    align-item: right;
 }
 footer {
     background-color: rebeccapurple;
@@ -163,4 +163,19 @@ footer {
     font-size: x-small;
     color: white;
     padding: 10px 0px;
+}
+
+.more-one-section {
+    background-color: cornflowerblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-top-img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width:70%;
 }
